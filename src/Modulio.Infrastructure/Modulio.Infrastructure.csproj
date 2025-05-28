@@ -1,13 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
-  <ItemGroup>
-    <ProjectReference Include="..\Modulio.Application\Modulio.Application.csproj" />
-  </ItemGroup>
-
+  
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Modulio.Application\Modulio.Application.csproj" />
+    <ProjectReference Include="..\Modulio.IdentityAccess\Modulio.IdentityAccess.csproj" />
+    <ProjectReference Include="..\Modulio.Persistence\Modulio.Persistence.csproj" />
+  </ItemGroup>
+  
 </Project>
